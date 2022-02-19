@@ -19,9 +19,11 @@ main{
 .container{
     border: 1px solid transparent;
     display: grid;
-    justify-content: center;
     height: 80vh;
-    margin: 100px 494px 20px 494px;
+    justify-content:center;
+    place-content: center;
+    position: relative;
+    top:100px;
     border-radius: 20px;
     font-family: "Red Hat Display";
     
@@ -117,14 +119,14 @@ main{
         font-family: 'Red Hat Display', sans-serif;
     }
     .container{
-        border: 1px solid transparent;
+       border: 1px solid transparent;
         display: grid;
-        justify-content: center;
         height: 80vh;
-        margin: 70px 120px 10px 120px;
+        place-content: center;
+        position: relative;
+        margin: 10px 20px 0px 20px;
         border-radius: 20px;
-        font-family: "Red Hat Display";
-        
+        font-family: "Red Hat Display";   
     }
     .subscription-area{
         display: flex;
