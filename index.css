@@ -6,7 +6,8 @@
 body{
     background-image:url(pattern-background-desktop.svg) ;
     background-repeat: no-repeat;
-    background-color:hsl(223, 47%, 23%);
+    background-color: #e0e8ff;
+    background-position:top center;
     font-family: 'Red Hat Display', sans-serif;
     background-size: contain;
   
@@ -115,6 +116,7 @@ main{
         background-repeat: no-repeat;
         background-color: #e0e8ff;
         background-size: contain;
+        background-position:top center;
         font-family: 'Red Hat Display', sans-serif;
     }
     .container{
